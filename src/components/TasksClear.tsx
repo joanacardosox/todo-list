@@ -19,8 +19,8 @@ export function TasksClear() {
       </div>
       <main className="text-zinc-700 grid place-items-center mt-11 text-center ">
         <img className="mb-3" src={Clipboard} alt="" />
-        <strong>Você ainda não tem tarefas cadastradas</strong>
-        <p>Crie tarefas e organize seus itens a fazer</p>
+        <strong>You don't have tasks registered yet</strong>
+        <p>Create tasks and organize your to-do items</p>
       </main>
     </div>
   );
