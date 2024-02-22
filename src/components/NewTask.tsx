@@ -54,7 +54,7 @@ export function NewTask({ addTask }: NewTaskProps) {
             type="submit"
           >
             Create
-            <PlusCircle />
+            <PlusCircle size={20} />
           </button>
         </form>
       </div>

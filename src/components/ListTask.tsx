@@ -48,9 +48,9 @@ export function ListTask({
                 onClick={() => onTaskToggle(task.id)}
               >
                 {task.isDone ? (
-                  <CheckCircle style={{ color: "green" }} />
+                  <CheckCircle style={{ color: "green" }} size={20} />
                 ) : (
-                  <Circle />
+                  <Circle size={20} />
                 )}
               </button>
               <span
@@ -64,7 +64,7 @@ export function ListTask({
                 className=" hover:text-red-700 text-2xl"
                 onClick={() => onTaskDelete(task.id)}
               >
-                <Trash />
+                <Trash size={20} />
               </button>
             </div>
           </div>
