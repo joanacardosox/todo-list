@@ -1,4 +1,4 @@
-import { CheckCircle, Circle, Trash } from "phosphor-react";
+import { CheckCircle, Circle, Trash } from "@phosphor-icons/react";
 import { NTask } from "../App";
 
 interface ListTasksProps {

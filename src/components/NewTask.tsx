@@ -1,4 +1,4 @@
-import { PlusCircle } from "phosphor-react";
+import { PlusCircle } from "@phosphor-icons/react";
 import { NTask } from "../App";
 import { ChangeEvent, FormEvent, InvalidEvent, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
